@@ -30,3 +30,58 @@ Use common HTML tags like h1, p, a, img, and ul or ol.
 Structure a webpage with semantic tags such as header, footer, nav, section, and article.
 Ensure the content is well-organized for readability and SEO.
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovations Showcase</title>
+
+</head>
+<body>
+    <header>
+        <h1>Tech Innovations Showcase</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Our Tech Journey</h2>
+            <article>
+                <p>We are passionate about exploring cutting-edge technologies that shape our digital future. Our mission is to highlight innovative solutions that transform how we live and work.</p>
+                <img src="/api/placeholder/400/250" alt="Tech Innovation Lab" style="max-width: 100%;">
+            </article>
+        </section>
+
+        <section id="technologies">
+            <h2>Key Technologies We Explore</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Blockchain</li>
+                <li>Internet of Things (IoT)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Connect With Us</h2>
+            <p>Interested in learning more? Check out our resources:</p>
+            <ol>
+                <li><a href="https://example.com/blog" target="_blank">Tech Blog</a></li>
+                <li><a href="https://example.com/newsletter" target="_blank">Monthly Newsletter</a></li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Tech Innovations Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
